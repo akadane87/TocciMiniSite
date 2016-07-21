@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width">
-
+<!-- <meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"> -->
 <title>Index</title>
 
 
@@ -12,33 +12,39 @@
 <style type="text/css">
 
 body{
-	height: 4000px;
+	/*height: 4000px;*/
 	background: url(starry_sky.jpg);
 }
 /* Blah blah */
 
+.wrapper{
+    position: relative;
+    /*width: 100%;*/
+}
+
+
 img.tocci {
     /* min-height: 100%; */
     /* min-width: 792px; */
-    max-width: 792px;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 22%;
+/*    max-width: 792px;
+*/    width: 100%;
+    /*height: auto;
+    position: relative;*/
+    /*top: 0;*/
+    /*left: 22%;*/
     /* overflow: scroll; */
 }
 
 .gallery {
-    height: 409px;
-    width: 650px;
+    height: 60%;
+    width: 80%;
     border: solid green 2px;
     position: absolute;
-    top: 2400px;
+    top: 50%;
     left: 27%;
 }
 
-@media only screen and (max-width: 1030px){
+/*@media only screen and (max-width: 1030px){
     img.tocci {
         left: 12%;
     }
@@ -49,7 +55,7 @@ img.tocci {
     img.tocci {
         left: 0;
     }
-}
+}*/
 
 </style>
 
@@ -59,10 +65,15 @@ img.tocci {
 
 </body>
 
-	<img src="AdamKadane_Tocci_minisheet.jpg" class="tocci">
+<div class="wrapper">
+<img src="AdamKadane_Tocci_minisheet.jpg" class="tocci">
 
     <a href="https://akadane87.carbonmade.com/projects/6130551" class="gallery">
     </a>
+
+
+</div>
+	
 
 
 </body>
